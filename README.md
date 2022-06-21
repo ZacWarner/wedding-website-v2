@@ -1,3 +1,13 @@
+# Wedding-Website-v2
+
+rebuilding my wedding website in a more modern stack. Next.js, Typscript, Tailwind.css
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

@@ -1,13 +1,12 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
 import 'tailwindcss/tailwind.css';
 import type { AppProps } from 'next/app'
+import { withTRPC } from '@trpc/next';
+import type { AppRouter } from '@/backend/router';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />
 }
-
-import { withTRPC } from '@trpc/next';
-import type { AppRouter } from '@/backend/router';
 
 
 export default withTRPC<AppRouter>({
